@@ -1540,6 +1540,10 @@
     document.querySelectorAll('.tab-btn').forEach((btn, i) => {
       btn.classList.toggle('active', i === index);
     });
+    const activeSection = document.querySelectorAll('.section')[index];
+    if (activeSection) {
+      activeSection.querySelectorAll('video').forEach(v => { v.currentTime = 0; v.play().catch(() => {}); });
+    }
     window.scrollTo({ top: 0, behavior: 'smooth' });
   }
 
