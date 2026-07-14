@@ -621,7 +621,7 @@
   <div class="header-inner">
     <div class="header-eyebrow">지자체 의사결정 가이드</div>
     <h1>지자체 담당자를 위한<br>셔클 택시 서비스 가이드</h1>
-    <p class="header-sub">우려사항별로 셔클이 제공하는 선택지를 확인하세요</p>
+    <p class="header-sub">셔클 옵션에 맞춰 지자체별 맞춤형 서비스를 기획해보세요</p>
   </div>
 </header>
 
@@ -766,6 +766,16 @@
           <li>사업 기간 종료 시 자동 만료</li>
           <li>특정 날짜 지정 종료</li>
         </ul>
+      </div>
+    </div>
+
+    <hr class="divider">
+    <div class="divider-label">설계 지원 도구</div>
+    <div class="cards">
+      <div class="tbd-card">
+        <div class="tbd-badge">추후 제공 예정</div>
+        <div class="card-title">예산 Calculator</div>
+        <p>예산 규모와 운영 조건(혜택 금액·한도·이용자 수 등)을 입력하면, 실제 운영 데이터를 기반으로 최적의 혜택 구조와 예상 소요 예산을 자동으로 제안합니다.</p>
       </div>
     </div>
   </section>
@@ -988,12 +998,13 @@
   <!-- ⑤ 서비스 운영 -->
   <section class="section" id="section-4">
     <div class="section-eyebrow">05 · 서비스 운영</div>
-    <h2 class="pain-quote">"매일 처리해야 할 일이 너무 많고<br>기사가 콜을 안 받아요"</h2>
-    <p class="pain-context">오픈 이후 이용자 등록, 바우처 관리, CS, 수락률 관리가 매일 쌓입니다. 셔클 운영툴은 이 업무들을 한 곳에서 처리할 수 있도록 지원합니다.</p>
+    <h2 class="pain-quote">"매일 처리해야 할 일이 너무 많고<br>다양한 민원이 발생해요"</h2>
+    <p class="pain-context">오픈 이후 이용자 등록·바우처 관리·기사 관리·CS 처리가 매일 쌓입니다. 셔클 운영툴은 관리 주체별 역할에 맞게 기능이 구분돼 있어 담당자마다 자신의 업무에만 집중할 수 있습니다.</p>
 
+    <div class="divider-label">이용자 관리 주체 — 지자체 담당자 / 행정복지센터</div>
     <div class="cards">
       <div class="card">
-        <div class="card-label">운영 기능 A</div>
+        <div class="card-label">이용자 관리</div>
         <div class="card-title">이용자 · 바우처 관리</div>
         <ul>
           <li>이용자 검색·조회·상태 확인</li>
@@ -1007,35 +1018,57 @@
         </ul>
       </div>
       <div class="card">
-        <div class="card-label">운영 기능 B</div>
-        <div class="card-title">기사 수락률 모니터링</div>
-        <ul>
-          <li>기사별 콜 수락·거절 이력 조회</li>
-          <li>수락률 낮은 기사 파악 가능</li>
-          <li>기사 운행 현황 실시간 확인</li>
-        </ul>
-      </div>
-      <div class="card">
-        <div class="card-label">운영 기능 C</div>
+        <div class="card-label">이용자 관리</div>
         <div class="card-title">이용자 커뮤니케이션</div>
-        <div class="card-subtitle">앱 내 팝업과 문자(SMS·알림톡)로 이용자에게 일괄 안내할 수 있습니다.</div>
+        <div class="card-subtitle">앱 팝업과 문자(SMS·알림톡)로 이용자에게 일괄 안내할 수 있습니다.</div>
         <ul>
           <li><strong>앱 팝업</strong>: 서비스 개시·변경사항·혜택 안내를 앱 진입 시 노출</li>
           <li><strong>문자 발송</strong>: 대상 이용자를 선택해 SMS·알림톡 일괄 발송</li>
           <li>담당자가 직접 내용을 작성해 즉시 발송 가능</li>
         </ul>
       </div>
+    </div>
+
+    <div class="divider-label" style="margin-top:32px">기사 관리 주체 — 운수사 / 운영담당자</div>
+    <div class="cards">
       <div class="card">
-        <div class="card-label">운영 기능 D</div>
-        <div class="card-title">CS 역할 분리</div>
+        <div class="card-label">기사 관리</div>
+        <div class="card-title">기사 관리</div>
+        <ul>
+          <li>기사별 콜 수락·거절 이력 조회</li>
+          <li>수락률 낮은 기사 파악 및 운영 정책 적용</li>
+          <li>기사 온보딩 심사 및 앱 활성화 승인</li>
+          <li>기사 운행 이력 및 누적 데이터 확인</li>
+        </ul>
+      </div>
+      <div class="card">
+        <div class="card-label">기사 관리</div>
+        <div class="card-title">실시간 관제 현황</div>
+        <div class="card-subtitle">관제툴에서 서비스 운행 상황을 실시간으로 확인할 수 있습니다.</div>
+        <ul>
+          <li>참여 중인 차량의 실시간 지도 위치 현황</li>
+          <li>호출·이동 건수 실시간 집계</li>
+          <li>배차 대기·운행 중·완료 상태별 현황</li>
+          <li>이상 상황(배차 지연·미수락 급증) 조기 감지</li>
+        </ul>
+        <div class="tbd-inline" style="margin-top:14px;background:#eaefff;color:var(--accent)">이미지 추가 예정 — 관제툴 실시간 지도 화면</div>
+      </div>
+    </div>
+
+    <div class="divider-label" style="margin-top:32px">시스템 · CS 관리 주체 — 운영사 / 플랫폼</div>
+    <div class="cards">
+      <div class="card">
+        <div class="card-label">CS 운영</div>
+        <div class="card-title">CS · 민원 역할 분리</div>
         <ul>
           <li>이용자 CS: 앱·전화·바우처 관련 → 고객센터</li>
           <li>기사 CS: 운행·정산 관련 → 담당 채널 분리</li>
           <li>처리 주체를 사전 정의해 현장 혼선 방지</li>
+          <li>민원 유형별 에스컬레이션 체계 수립 가능</li>
         </ul>
       </div>
       <div class="card">
-        <div class="card-label">운영 기능 E</div>
+        <div class="card-label">시스템 관리</div>
         <div class="card-title">권한 분리</div>
         <ul>
           <li>지자체·운영사·운수사별 접근 권한 차등 설정</li>
@@ -1115,6 +1148,22 @@
           <li>운수사별 정산 금액</li>
         </ul>
       </div>
+      <div class="card">
+        <div class="card-label">다부서 정산</div>
+        <div class="card-title">예산 부처별 정산 데이터 분리</div>
+        <div class="card-subtitle">하나의 서비스에 2개 이상의 예산 부처가 참여하는 경우, 부처별로 정산 데이터를 분리해 제공합니다.</div>
+        <div class="card-section">활용 사례</div>
+        <ul>
+          <li><strong>임산부</strong>(여성가족과 예산) + <strong>장애인</strong>(장애인복지과 예산)이 같은 바우처택시 이용</li>
+          <li>이용자 유형별로 지원금 집계·정산 데이터 분리 제공</li>
+          <li>각 부서가 본인 예산 집행분만 독립적으로 확인·증빙 가능</li>
+        </ul>
+        <div class="card-section">제공 방식</div>
+        <ul>
+          <li>이용자 속성(유형·그룹) 기준 필터링 후 데이터 추출</li>
+          <li>부서별 보고·감사 대응 자료로 바로 활용</li>
+        </ul>
+      </div>
     </div>
   </section>
 
@@ -1122,7 +1171,11 @@
   <section class="section" id="section-6">
     <div class="section-eyebrow">07 · 예산 집행 관리</div>
     <h2 class="pain-quote">"예산을 제대로 쓴 건지 증빙하기 어렵고<br>언제 소진될지 예측도 안 돼요"</h2>
-    <p class="pain-context">예산 관리는 두 가지 관점에서 다뤄집니다. <strong>증빙</strong>: 올바르게 집행됐음을 사후 입증. <strong>예측</strong>: 소진 속도를 파악해 혜택 운영을 선제적으로 조정.</p>
+    <p class="pain-context" style="margin-bottom:10px">예산 관리는 두 가지 관점에서 다뤄집니다.</p>
+    <p style="font-size:13px;color:var(--text-muted);line-height:2;margin-bottom:44px">
+      <strong style="color:var(--text)">증빙</strong> — 적격 대상자에게 올바르게 집행됐음을 사후 입증<br>
+      <strong style="color:var(--text)">예측</strong> — 소진 속도를 일 단위로 파악해 혜택 운영을 선제적으로 조정
+    </p>
 
     <div class="divider-label">관점 1 — 예산 증빙</div>
     <p style="font-size:14px;color:var(--text-muted);margin-bottom:24px;line-height:1.7">감사·의회 보고 시 "적격 대상자에게 올바르게 집행됐는가"를 증명해야 합니다. 셔클은 전 과정이 시스템에 자동 기록됩니다.</p>
@@ -1252,6 +1305,7 @@
           <li>기간 필터로 원하는 구간 즉시 조회</li>
           <li>실시간 데이터 반영</li>
         </ul>
+        <div class="tbd-inline" style="margin-top:14px;background:#eaefff;color:var(--accent)">이미지 추가 예정 — 인사이트 대시보드 화면</div>
       </div>
       <div class="card">
         <div class="card-label">방법 B</div>
@@ -1261,6 +1315,18 @@
           <li>건별 운행 데이터 확인</li>
           <li>집계 데이터 내보내기 (보고 자료 활용)</li>
         </ul>
+      </div>
+      <div class="card">
+        <div class="card-label">방법 C</div>
+        <div class="card-title">관제툴 실시간 현황</div>
+        <div class="card-subtitle">운영 중 서비스 상태를 지도·수치로 실시간 확인</div>
+        <ul>
+          <li>참여 차량의 실시간 위치 및 이동 경로 지도 표시</li>
+          <li>호출 건수 · 이동완료 건수 실시간 집계</li>
+          <li>배차 대기·운행 중·완료 상태 현황 한눈에 파악</li>
+          <li>보고 시점의 스냅샷 데이터로 현장 보고에 활용</li>
+        </ul>
+        <div class="tbd-inline" style="margin-top:14px;background:#eaefff;color:var(--accent)">이미지 추가 예정 — 관제툴 실시간 지도 화면</div>
       </div>
     </div>
   </section>
