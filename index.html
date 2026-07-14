@@ -1,0 +1,1296 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>셔클 택시 서비스 · 지자체 의사결정 가이드</title>
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYwIiBoZWlnaHQ9IjE1MyIgdmlld0JveD0iMCAwIDE2MCAxNTMiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxnIGNsaXAtcGF0aD0idXJsKCNjbGlwMF8xNF8xMykiPgo8cGF0aCBkPSJNMTYwLjQ1IDEyMy40MzdDMTU5LjgzMyAxMTYuMzE0IDE1Ni40MjUgMTA5LjcyMyAxNTAuOTY5IDEwNS4xMDJMMTExLjEyMyA3MS41ODUyQzExMC4wNDkgNzAuNjU1NyAxMDkuMTg3IDY5LjUwNTQgMTA4LjU5OCA2OC4yMTI3QzEwOC4wMDkgNjYuOTIgMTA3LjcwNiA2NS41MTU0IDEwNy43MSA2NC4wOTQ4VjY0SDk3LjgxMzNWNjQuMTA2N0M5Ny44MTE4IDY2Ljk1NzkgOTguNDI2MyA2OS43NzU4IDk5LjYxNDcgNzIuMzY3NkMxMDAuODAzIDc0Ljk1OTMgMTAyLjUzOCA3Ny4yNjM3IDEwNC42OTkgNzkuMTIzTDE0NS43NzggMTEzLjY5NUMxNDguODgyIDExNi44NzIgMTUwLjY0NyAxMjEuMTIgMTUwLjcwNyAxMjUuNTYxQzE1MC43NjggMTMwLjAwMiAxNDkuMTE5IDEzNC4yOTcgMTQ2LjEwMyAxMzcuNTU3QzE0My4wODYgMTQwLjgxNyAxMzguOTMyIDE0Mi43OTMgMTM0LjUgMTQzLjA3N0MxMzAuMDY3IDE0My4zNjEgMTI1LjY5NSAxNDEuOTMgMTIyLjI4NyAxMzkuMDgxTDkxLjg0IDExMy41MDVDODguNzQwNCAxMTAuODMxIDg0Ljc5MjEgMTA5LjM0NCA4MC42OTg1IDEwOS4zMDlDNzYuNjA0OSAxMDkuMjc1IDcyLjYzMTkgMTEwLjY5NCA2OS40ODc0IDExMy4zMTZMMzguODI2NyAxMzkuMDgxQzM3LjA4NzQgMTQwLjU0NyAzNS4wNzY1IDE0MS42NTUgMzIuOTA4OSAxNDIuMzQzQzMwLjc0MTIgMTQzLjAzMiAyOC40NTkyIDE0My4yODYgMjYuMTkzMiAxNDMuMDkzQzIzLjkyNzIgMTQyLjg5OSAyMS43MjE1IDE0Mi4yNjEgMTkuNzAyMSAxNDEuMjE1QzE3LjY4MjcgMTQwLjE2OCAxNS44ODkxIDEzOC43MzUgMTQuNDIzNyAxMzYuOTk2QzExLjQ2NDMgMTMzLjQ4MyAxMC4wMjE1IDEyOC45MzggMTAuNDEyNyAxMjQuMzYyQzEwLjgwMzggMTE5Ljc4NiAxMi45OTcgMTE1LjU1MiAxNi41MDk2IDExMi41OTNMNTYuMjcyNiA3OS4xNTg1QzU4LjQyMTQgNzcuMjk4MyA2MC4xNDUyIDc0Ljk5NzkgNjEuMzI3MSA3Mi40MTMyQzYyLjUwOSA2OS44Mjg1IDYzLjEyMTUgNjcuMDE5OSA2My4xMjMgNjQuMTc3OFYyNS43Nzc4QzYzLjExMDYgMjEuMjkyMSA2NC44Mzk0IDE2Ljk3NjcgNjcuOTQ1MyAxMy43NDAzQzcxLjA1MTMgMTAuNTAzOSA3NS4yOTIgOC41OTkxNiA3OS43NzQzIDguNDI3MTJDODQuMjU2NyA4LjI1NTA3IDg4LjYzMDkgOS44MjkxNyA5MS45NzU4IDEyLjgxOEM5NS4zMjA3IDE1LjgwNjggOTcuMzc1MiAxOS45NzcgOTcuNzA2NyAyNC40NTA0SDEwNy42MTVDMTA2Ljg0NiAxNy42OTA3IDEwMy41NzggMTEuNDYyNyA5OC40NTIgNi45ODk4N0M5My4zMjYgMi41MTcwMSA4Ni43MTI2IDAuMTIyNjA4IDc5LjkxMTIgMC4yNzcwNTFDNzMuMTA5NyAwLjQzMTQ5NCA2Ni42MTE5IDMuMTIzNjEgNjEuNjk0MSA3LjgyNDU0QzU2Ljc3NjMgMTIuNTI1NSA1My43OTQxIDE4Ljg5NTQgNTMuMzMzMyAyNS42ODNWNjQuMDgzQzUzLjMzMzMgNjUuNDk4NCA1My4wMjk3IDY2Ljg5NzMgNTIuNDQyOSA2OC4xODU0QzUxLjg1NjEgNjkuNDczNSA1MC45OTk4IDcwLjYyMDcgNDkuOTMxOSA3MS41NDk2TDEwLjE5MjYgMTA0Ljk2QzYuMTAxNzkgMTA4LjQyOSAzLjEyNTQxIDExMy4wMjggMS42MzYxOCAxMTguMTgxQzAuMTQ2OTQyIDEyMy4zMzQgMC4yMTEwMzYgMTI4LjgxMiAxLjgyMDQ0IDEzMy45MjlDMy40Mjk4NSAxMzkuMDQ1IDYuNTEzMDIgMTQzLjU3NCAxMC42ODM5IDE0Ni45NDZDMTQuODU0OCAxNTAuMzE5IDE5LjkyNzkgMTUyLjM4NiAyNS4yNjgyIDE1Mi44ODlDMjYuMDc0MSAxNTIuOTYgMjYuODkxOCAxNTIuOTk2IDI3LjY5NzggMTUyLjk5NkMzNC4wNzM2IDE1My4wMDUgNDAuMjQ2MyAxNTAuNzU0IDQ1LjEyIDE0Ni42NDNMNzUuNzY4OSAxMjAuODg5Qzc3LjA5NzEgMTE5Ljc3NiA3OC43NzcxIDExOS4xNzIgODAuNTA5NiAxMTkuMTgyQzgyLjI4MzkgMTE5LjE5NSA4My45OTQ5IDExOS44NDMgODUuMzMzMyAxMjEuMDA3TDExNS44NCAxNDYuNjQzQzEyMC43MTMgMTUwLjc0NSAxMjYuODggMTUyLjk5MSAxMzMuMjUgMTUyLjk4NEMxMzQuMDU2IDE1Mi45ODQgMTM0Ljg3NCAxNTIuOTg0IDEzNS42OTIgMTUyLjg3N0MxNDIuODcxIDE1Mi4yMzIgMTQ5LjUwMyAxNDguNzcxIDE1NC4xMzYgMTQzLjI0OUMxNTguNzY5IDEzNy43MjcgMTYxLjAyNyAxMzAuNTk1IDE2MC40MTUgMTIzLjQxM0wxNjAuNDUgMTIzLjQzN1oiIGZpbGw9IiMyNDYyRjciLz4KPHBhdGggZD0iTTg4Ljk5NTYgNDQuMjA3NEM4OC45OTU2IDQ2Ljk0NzYgODkuODA4MiA0OS42MjYzIDkxLjMzMDYgNTEuOTA0N0M5Mi44NTMgNTQuMTgzMSA5NS4wMTY4IDU1Ljk1ODkgOTcuNTQ4NCA1Ny4wMDc2QzEwMC4wOCA1OC4wNTYyIDEwMi44NjYgNTguMzMwNiAxMDUuNTUzIDU3Ljc5NkMxMDguMjQxIDU3LjI2MTQgMTEwLjcxIDU1Ljk0MTggMTEyLjY0NyA1NC4wMDQyQzExNC41ODUgNTIuMDY2NiAxMTUuOTA0IDQ5LjU5NzkgMTE2LjQzOSA0Ni45MTAzQzExNi45NzQgNDQuMjIyNyAxMTYuNjk5IDQxLjQzNyAxMTUuNjUxIDM4LjkwNTNDMTE0LjYwMiAzNi4zNzM3IDExMi44MjYgMzQuMjA5OSAxMTAuNTQ4IDMyLjY4NzVDMTA4LjI2OSAzMS4xNjUxIDEwNS41OTEgMzAuMzUyNSAxMDIuODUgMzAuMzUyNUM5OS4xNzY5IDMwLjM1NTcgOTUuNjU0NyAzMS44MTY0IDkzLjA1NzEgMzQuNDE0QzkwLjQ1OTUgMzcuMDExNiA4OC45OTg3IDQwLjUzMzggODguOTk1NiA0NC4yMDc0Wk0xMDguNzg4IDQ0LjIwNzRDMTA4Ljc4OCA0NS4zNzk0IDEwOC40NDEgNDYuNTI1MSAxMDcuNzkgNDcuNDk5NkMxMDcuMTM4IDQ4LjQ3NDIgMTA2LjIxMyA0OS4yMzM3IDEwNS4xMyA0OS42ODIyQzEwNC4wNDcgNTAuMTMwNyAxMDIuODU2IDUwLjI0ODEgMTAxLjcwNiA1MC4wMTk0QzEwMC41NTcgNDkuNzkwOCA5OS41MDA4IDQ5LjIyNjQgOTguNjcyIDQ4LjM5NzZDOTcuODQzMiA0Ny41Njg5IDk3LjI3ODkgNDYuNTEzIDk3LjA1MDIgNDUuMzYzNUM5Ni44MjE2IDQ0LjIxMzkgOTYuOTM4OSA0My4wMjI1IDk3LjM4NzQgNDEuOTM5NkM5Ny44MzU5IDQwLjg1NjggOTguNTk1NSAzOS45MzEzIDk5LjU3IDM5LjI4MDFDMTAwLjU0NSAzOC42MjkgMTAxLjY5IDM4LjI4MTQgMTAyLjg2MiAzOC4yODE0QzEwMy42NCAzOC4yODE0IDEwNC40MTEgMzguNDM0NyAxMDUuMTMgMzguNzMyNUMxMDUuODQ5IDM5LjAzMDMgMTA2LjUwMiAzOS40NjY4IDEwNy4wNTMgNDAuMDE3MUMxMDcuNjAzIDQwLjU2NzQgMTA4LjAzOSA0MS4yMjA3IDEwOC4zMzcgNDEuOTM5NkMxMDguNjM1IDQyLjY1ODYgMTA4Ljc4OCA0My40MjkyIDEwOC43ODggNDQuMjA3NFoiIGZpbGw9IiMwMEQ3NDAiLz4KPC9nPgo8ZGVmcz4KPGNsaXBQYXRoIGlkPSJjbGlwMF8xNF8xMyI+CjxyZWN0IHdpZHRoPSIxNjAiIGhlaWdodD0iMTUyLjg4OSIgZmlsbD0id2hpdGUiLz4KPC9jbGlwUGF0aD4KPC9kZWZzPgo8L3N2Zz4K">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css">
+  <style>
+    :root {
+      --primary: #0b1f3a;
+      --accent: #2462F7;
+      --accent-light: #eaefff;
+      --green: #00D740;
+      --bg: #f4f6fb;
+      --white: #ffffff;
+      --text: #111827;
+      --text-muted: #6b7280;
+      --border: #e5e7eb;
+    }
+
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Noto Sans KR', sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      min-height: 100vh;
+    }
+
+    /* ─── LOGO BAR ─── */
+    .header-logo-bar {
+      background: var(--white);
+      border-bottom: 1px solid var(--border);
+      padding: 0 48px;
+    }
+    .header-logo-inner {
+      max-width: 1080px;
+      margin: 0 auto;
+      padding: 16px 0;
+      display: flex;
+      align-items: center;
+      gap: 16px;
+    }
+    .header-logo-inner svg { display: block; }
+    .header-logo-divider {
+      width: 1px;
+      height: 20px;
+      background: var(--border);
+    }
+    .header-logo-label {
+      font-size: 12px;
+      font-weight: 600;
+      color: var(--text-muted);
+      letter-spacing: 0.02em;
+    }
+
+    /* ─── HEADER ─── */
+    .header {
+      background: var(--primary);
+      color: white;
+      padding: 48px 48px 40px;
+      position: relative;
+      overflow: hidden;
+    }
+    .header::before {
+      content: '';
+      position: absolute;
+      top: 0; left: 0; right: 0;
+      height: 4px;
+      background: linear-gradient(90deg, var(--accent) 0%, var(--green) 100%);
+    }
+    .header-inner {
+      max-width: 1080px;
+      margin: 0 auto;
+    }
+    .header-eyebrow {
+      font-size: 11px;
+      font-weight: 700;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      color: var(--accent);
+      opacity: 0.85;
+      margin-bottom: 16px;
+    }
+    .header h1 {
+      font-size: 30px;
+      font-weight: 800;
+      line-height: 1.3;
+      margin-bottom: 12px;
+    }
+    .header-sub {
+      font-size: 14.5px;
+      opacity: 0.55;
+    }
+
+    /* ─── TAB NAV ─── */
+    .tab-nav-wrap {
+      background: var(--white);
+      border-bottom: 1px solid var(--border);
+      position: sticky;
+      top: 0;
+      z-index: 50;
+      overflow-x: auto;
+    }
+    .tab-nav {
+      display: flex;
+      padding: 0 48px;
+      min-width: max-content;
+    }
+    .tab-btn {
+      padding: 17px 20px;
+      font-size: 13.5px;
+      font-weight: 500;
+      color: var(--text-muted);
+      border: none;
+      background: none;
+      cursor: pointer;
+      white-space: nowrap;
+      border-bottom: 3px solid transparent;
+      margin-bottom: -1px;
+      transition: color 0.15s, border-color 0.15s;
+    }
+    .tab-btn:hover { color: var(--accent); }
+    .tab-btn.active {
+      color: var(--accent);
+      border-bottom-color: var(--accent);
+      font-weight: 700;
+    }
+    /* ─── CONTENT HEADER ─── */
+    .content-header-inner {
+      max-width: 1080px;
+      margin: 0 auto;
+      padding: 0 48px;
+    }
+
+    /* ─── CONTENT ─── */
+    .content {
+      max-width: 1080px;
+      margin: 0 auto;
+      padding: 56px 48px 80px;
+    }
+
+    .section { display: none; }
+    .section.active { display: block; }
+
+    /* Section header */
+    .section-eyebrow {
+      font-size: 11px;
+      font-weight: 700;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      color: var(--accent);
+      margin-bottom: 14px;
+    }
+    .pain-quote {
+      font-size: 26px;
+      font-weight: 800;
+      line-height: 1.38;
+      margin-bottom: 14px;
+    }
+    .pain-context {
+      font-size: 15px;
+      color: var(--text-muted);
+      line-height: 1.75;
+      max-width: 680px;
+      margin-bottom: 44px;
+    }
+
+    /* Divider label */
+    .divider-label {
+      font-size: 11px;
+      font-weight: 700;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: var(--text-muted);
+      margin: 36px 0 18px;
+    }
+    .divider-label:first-of-type { margin-top: 0; }
+    hr.divider {
+      border: none;
+      border-top: 1.5px solid var(--border);
+      margin: 44px 0;
+    }
+
+    /* ─── CARDS ─── */
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(288px, 1fr));
+      gap: 18px;
+    }
+    .card {
+      background: var(--white);
+      border: 1.5px solid var(--border);
+      border-radius: 14px;
+      padding: 28px;
+      transition: border-color 0.15s, box-shadow 0.15s;
+    }
+    .card:hover {
+      border-color: #a3b8fd;
+      box-shadow: 0 2px 12px rgba(36,98,247,0.09);
+    }
+    .card-label {
+      font-size: 10.5px;
+      font-weight: 700;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--accent);
+      margin-bottom: 10px;
+    }
+    .card-title {
+      font-size: 17px;
+      font-weight: 700;
+      margin-bottom: 6px;
+      line-height: 1.3;
+    }
+    .card-subtitle {
+      font-size: 13px;
+      color: var(--text-muted);
+      margin-bottom: 18px;
+      line-height: 1.55;
+    }
+    .card-section {
+      font-size: 10px;
+      font-weight: 700;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--text-muted);
+      margin-top: 16px;
+      margin-bottom: 8px;
+    }
+    .card ul { list-style: none; padding: 0; }
+    .card ul li {
+      font-size: 13.5px;
+      line-height: 1.55;
+      padding: 3px 0 3px 16px;
+      position: relative;
+    }
+    .card ul li::before {
+      content: '·';
+      position: absolute;
+      left: 4px;
+      color: var(--accent);
+      font-weight: 900;
+      font-size: 18px;
+      line-height: 1.1;
+    }
+    .case-chip {
+      display: inline-block;
+      background: var(--accent-light);
+      color: var(--accent);
+      border-radius: 5px;
+      padding: 3px 9px;
+      font-size: 11px;
+      font-weight: 600;
+      margin-top: 14px;
+    }
+
+    /* TBD card */
+    .tbd-card {
+      background: #fffbeb;
+      border: 1.5px dashed #fde68a;
+      border-radius: 14px;
+      padding: 28px;
+    }
+    .tbd-badge {
+      display: inline-block;
+      background: #fef3c7;
+      color: #92400e;
+      border-radius: 5px;
+      padding: 3px 10px;
+      font-size: 10.5px;
+      font-weight: 700;
+      letter-spacing: 0.06em;
+      margin-bottom: 12px;
+    }
+    .tbd-card .card-title { color: #78350f; margin-bottom: 10px; }
+    .tbd-card p { font-size: 13.5px; color: #92400e; line-height: 1.65; }
+
+    /* ─── TRACK NAV (가입 주체 필터) ─── */
+    .track-nav {
+      display: flex;
+      gap: 8px;
+      flex-wrap: wrap;
+      margin-bottom: 28px;
+    }
+    .track-btn {
+      padding: 8px 18px;
+      font-size: 13px;
+      font-weight: 600;
+      border-radius: 20px;
+      border: 1.5px solid var(--border);
+      background: var(--white);
+      color: var(--text-muted);
+      cursor: pointer;
+      transition: all 0.15s;
+    }
+    .track-btn:hover { border-color: var(--accent); color: var(--accent); }
+    .track-btn.active {
+      background: var(--accent);
+      border-color: var(--accent);
+      color: #fff;
+    }
+    .track-chip {
+      display: inline-block;
+      border-radius: 5px;
+      padding: 3px 9px;
+      font-size: 10.5px;
+      font-weight: 700;
+      letter-spacing: 0.04em;
+      margin-bottom: 14px;
+    }
+    .chip-self   { background: #e0f2fe; color: #0369a1; }
+    .chip-assist { background: #f0fdf4; color: #15803d; }
+    .chip-proxy  { background: #faf5ff; color: #7e22ce; }
+    .reg-card { transition: opacity 0.2s; }
+    .reg-card.dimmed { opacity: 0.25; }
+
+    /* ─── INFO BOX (배차 방식 등 구조 설명) ─── */
+    .info-box {
+      background: var(--accent-light);
+      border: 1.5px solid #bfdbfe;
+      border-radius: 14px;
+      padding: 24px 28px;
+      margin-bottom: 36px;
+    }
+    .info-box-title {
+      font-size: 11px;
+      font-weight: 700;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: var(--accent);
+      margin-bottom: 14px;
+    }
+    .info-flow {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 10px;
+    }
+    .flow-step {
+      background: var(--white);
+      border-radius: 10px;
+      padding: 10px 16px;
+      font-size: 13.5px;
+      line-height: 1.5;
+      flex: 1;
+      min-width: 160px;
+    }
+    .flow-arrow { color: var(--accent); font-size: 20px; font-weight: 700; flex-shrink: 0; }
+
+    /* ─── PAIN BOX (기사 페인포인트) ─── */
+    .pain-box {
+      background: #fff1f2;
+      border: 1.5px solid #fecdd3;
+      border-radius: 14px;
+      padding: 20px 28px;
+      margin-bottom: 36px;
+    }
+    .pain-list { list-style: none; padding: 0; }
+    .pain-list li {
+      font-size: 13.5px;
+      line-height: 1.6;
+      padding: 4px 0 4px 22px;
+      position: relative;
+      color: #be123c;
+    }
+    .pain-list li::before {
+      content: '✕';
+      position: absolute;
+      left: 2px;
+      font-size: 10px;
+      top: 7px;
+      color: #be123c;
+    }
+
+    /* ─── TBD INLINE ─── */
+    .tbd-inline {
+      margin-top: 16px;
+      background: #fef3c7;
+      border-radius: 6px;
+      padding: 7px 12px;
+      font-size: 11.5px;
+      color: #92400e;
+      line-height: 1.5;
+    }
+
+    /* ─── CYCLE FLOW (선순환 구조) ─── */
+    .cycle-flow {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 8px;
+      background: var(--white);
+      border: 1.5px solid var(--border);
+      border-radius: 14px;
+      padding: 24px 28px;
+      margin-top: 8px;
+    }
+    .cycle-step {
+      background: var(--bg);
+      border-radius: 8px;
+      padding: 9px 15px;
+      font-size: 13px;
+      font-weight: 500;
+      flex: 1;
+      min-width: 130px;
+      text-align: center;
+      line-height: 1.45;
+    }
+    .cycle-step.highlight-step {
+      background: var(--accent);
+      color: #fff;
+      font-weight: 700;
+    }
+    .cycle-arrow { color: var(--accent); font-size: 18px; font-weight: 700; flex-shrink: 0; }
+
+    /* ─── PAYMENT DIAGRAM ─── */
+    .payment-compare {
+      display: grid;
+      grid-template-columns: 1fr 52px 1fr;
+      align-items: start;
+      gap: 0;
+      margin-bottom: 44px;
+    }
+    .pay-box {
+      border-radius: 14px;
+      padding: 24px 24px 20px;
+    }
+    .pay-box.before { background: #fff1f2; border: 1.5px solid #fecdd3; }
+    .pay-box.after  { background: #f0fdf4; border: 1.5px solid #bbf7d0; }
+    .pay-box .ba-label { margin-bottom: 18px; }
+    .pay-node {
+      display: inline-block;
+      padding: 6px 16px;
+      border-radius: 8px;
+      font-size: 13.5px;
+      font-weight: 700;
+    }
+    .pay-node.gov    { background: #fef3c7; color: #92400e; }
+    .pay-node.settle { background: var(--accent-light); color: var(--accent); }
+    .pay-node.driver { background: var(--bg); color: var(--text); font-size: 12.5px; }
+    .pay-lines {
+      display: flex;
+      flex-direction: column;
+      gap: 7px;
+      margin: 12px 0 12px 18px;
+      padding-left: 14px;
+      border-left: 2px solid #fecdd3;
+    }
+    .pay-line {
+      font-size: 13px;
+      color: #be123c;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+    .pay-line::before { content: '→'; font-weight: 700; }
+    .pay-flow-row {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      margin-bottom: 12px;
+      flex-wrap: wrap;
+    }
+    .pay-single-arrow { font-size: 12px; color: #15803d; font-weight: 600; white-space: nowrap; }
+    .pay-down-block {
+      display: flex;
+      flex-direction: column;
+      gap: 7px;
+      margin: 4px 0 0 18px;
+      padding-left: 14px;
+      border-left: 2px solid #bbf7d0;
+    }
+    .pay-summary {
+      margin-top: 18px;
+      padding: 10px 14px;
+      border-radius: 8px;
+      font-size: 13px;
+      font-weight: 700;
+      text-align: center;
+    }
+    .pay-box.before .pay-summary { background: #fecdd3; color: #9f1239; }
+    .pay-box.after  .pay-summary { background: #bbf7d0; color: #15803d; }
+    @media (max-width: 720px) { .payment-compare { grid-template-columns: 1fr; } }
+
+    /* ─── PAIN-LED CARD ─── */
+    .driver-pain-label {
+      font-size: 10px;
+      font-weight: 700;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: #be123c;
+      margin-bottom: 6px;
+    }
+    .driver-pain-quote {
+      font-size: 13.5px;
+      color: var(--text-muted);
+      font-style: italic;
+      line-height: 1.55;
+      margin-bottom: 16px;
+      padding-bottom: 16px;
+      border-bottom: 1px solid var(--border);
+    }
+
+    /* ─── BEFORE / AFTER ─── */
+    .before-after {
+      display: grid;
+      grid-template-columns: 1fr 52px 1fr;
+      align-items: start;
+      margin-bottom: 44px;
+    }
+    .before-card, .after-card {
+      border-radius: 14px;
+      padding: 28px;
+    }
+    .before-card {
+      background: #fff1f2;
+      border: 1.5px solid #fecdd3;
+    }
+    .after-card {
+      background: #f0fdf4;
+      border: 1.5px solid #bbf7d0;
+    }
+    .ba-label {
+      font-size: 10.5px;
+      font-weight: 800;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      margin-bottom: 14px;
+    }
+    .before-card .ba-label { color: #be123c; }
+    .after-card .ba-label { color: #15803d; }
+    .ba-arrow {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: var(--text-muted);
+      font-size: 22px;
+      padding-top: 36px;
+    }
+    .before-card ul, .after-card ul { list-style: none; padding: 0; }
+    .before-card ul li, .after-card ul li {
+      font-size: 13.5px;
+      line-height: 1.6;
+      padding: 4px 0 4px 20px;
+      position: relative;
+    }
+    .before-card ul li::before {
+      content: '✕';
+      position: absolute;
+      left: 0;
+      color: #be123c;
+      font-size: 10px;
+      top: 7px;
+    }
+    .after-card ul li::before {
+      content: '✓';
+      position: absolute;
+      left: 0;
+      color: #15803d;
+      font-size: 12px;
+      top: 5px;
+    }
+
+    /* ─── METRIC CHIPS (Section 8) ─── */
+    .metric-group { margin-bottom: 28px; }
+    .metric-group-title {
+      font-size: 11px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      color: var(--text-muted);
+      margin-bottom: 12px;
+    }
+    .metric-chips { display: flex; flex-wrap: wrap; gap: 8px; }
+    .metric-chip {
+      background: var(--white);
+      border: 1.5px solid var(--border);
+      border-radius: 8px;
+      padding: 7px 16px;
+      font-size: 13px;
+      color: var(--text);
+    }
+
+    @media (max-width: 720px) {
+      .header-logo-bar { padding: 0 20px; }
+      .header { padding: 32px 20px 28px; }
+      .header h1 { font-size: 22px; }
+      .tab-nav { padding: 0 12px; }
+      .content { padding: 36px 20px 60px; }
+      .pain-quote { font-size: 20px; }
+      .cards { grid-template-columns: 1fr; }
+      .before-after { grid-template-columns: 1fr; }
+      .ba-arrow { display: none; }
+    }
+  </style>
+</head>
+<body>
+
+<div class="header-logo-bar">
+  <div class="header-logo-inner">
+    <svg width="72" height="44" viewBox="0 0 160 99" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <g clip-path="url(#wm_clip)">
+        <path d="M150.764 80.5375C148.937 80.5375 147.151 81.0792 145.632 82.094C144.113 83.1087 142.929 84.551 142.23 86.2383C141.531 87.9257 141.349 89.7823 141.706 91.5732C142.063 93.3641 142.944 95.009 144.236 96.2996C145.529 97.5902 147.176 98.4687 148.968 98.8238C150.76 99.1789 152.617 98.9947 154.305 98.2946C155.992 97.5944 157.434 96.4098 158.448 94.8904C159.462 93.3711 160.002 91.5854 160 89.7592C160 88.5474 159.761 87.3475 159.297 86.2281C158.832 85.1086 158.152 84.0916 157.294 83.2351C156.436 82.3787 155.418 81.6996 154.298 81.2368C153.177 80.7739 151.976 80.5363 150.764 80.5375ZM150.764 92.9221C150.136 92.9221 149.522 92.736 149.001 92.3874C148.479 92.0388 148.072 91.5434 147.831 90.9637C147.591 90.3841 147.528 89.7462 147.651 89.1308C147.773 88.5155 148.076 87.9502 148.52 87.5065C148.963 87.0629 149.529 86.7607 150.145 86.6383C150.76 86.5159 151.399 86.5787 151.979 86.8189C152.558 87.059 153.054 87.4656 153.403 87.9873C153.752 88.5089 153.938 89.1223 153.938 89.7497C153.939 90.1671 153.858 90.5807 153.699 90.9667C153.54 91.3526 153.306 91.7035 153.012 91.9991C152.717 92.2946 152.366 92.5292 151.981 92.6892C151.595 92.8492 151.181 92.9316 150.764 92.9316V92.9221Z" fill="#00D740"/>
+        <path d="M93.3176 81.6522C93.3176 80.7199 93.6881 79.8257 94.3477 79.1665C95.0073 78.5072 95.9019 78.1369 96.8347 78.1369H118.271C119.868 78.1381 121.449 77.8249 122.925 77.215C124.4 76.6052 125.741 75.7107 126.871 74.5826C128 73.4546 128.896 72.1152 129.507 70.6409C130.119 69.1666 130.433 67.5864 130.433 65.9905V64.914C130.433 61.6901 129.152 58.5982 126.871 56.3185C124.59 54.0388 121.497 52.7581 118.271 52.7581H90.2485C89.0241 52.7606 87.8507 53.2486 86.9858 54.1148C86.1209 54.981 85.6352 56.1548 85.6352 57.3785C85.6352 58.6014 86.1212 59.7742 86.9864 60.6389C87.8515 61.5036 89.0249 61.9894 90.2485 61.9894H117.223C118.14 61.9894 119.02 62.3537 119.669 63.0022C120.318 63.6507 120.683 64.5303 120.683 65.4475C120.684 65.9024 120.595 66.3531 120.422 66.7738C120.249 67.1945 119.994 67.5768 119.673 67.8989C119.351 68.2211 118.969 68.4766 118.549 68.651C118.128 68.8254 117.678 68.9151 117.223 68.9151H95.7577C92.5346 68.9151 89.4435 70.1949 87.1644 72.4727C84.8853 74.7506 83.605 77.8401 83.605 81.0615V82.2428C83.6037 83.8387 83.9171 85.4192 84.5273 86.8939C85.1375 88.3687 86.0324 89.7088 87.161 90.8377C88.2896 91.9666 89.6298 92.8622 91.1048 93.4732C92.5799 94.0842 94.161 94.3987 95.7577 94.3987H128.946C130.172 94.3987 131.348 93.9119 132.215 93.0454C133.082 92.1789 133.569 91.0037 133.569 89.7783C133.567 88.5546 133.079 87.3818 132.212 86.5174C131.345 85.6529 130.171 85.1674 128.946 85.1674H96.8347C95.9019 85.1674 95.0073 84.7971 94.3477 84.1379C93.6881 83.4786 93.3176 82.5845 93.3176 81.6522Z" fill="#2462F7"/>
+        <path d="M131.815 35.3055C131.244 35.3055 130.696 35.0786 130.292 34.6749C129.888 34.2711 129.661 33.7235 129.661 33.1525V12.1845C129.661 8.96058 128.38 5.86869 126.099 3.58902C123.818 1.30935 120.725 0.0286255 117.499 0.0286255H90.2484C89.0249 0.0286255 87.8515 0.51441 86.9863 1.37911C86.1212 2.24381 85.6351 3.4166 85.6351 4.63947C85.6351 5.86235 86.1212 7.03516 86.9863 7.89986C87.8515 8.76457 89.0249 9.25035 90.2484 9.25035H115.526C116.696 9.25035 117.819 9.71504 118.646 10.5422C119.474 11.3694 119.939 12.4913 119.939 13.6611C119.939 14.8309 119.474 15.9529 118.646 16.78C117.819 17.6072 116.696 18.0719 115.526 18.0719H90.2484C89.024 18.0744 87.8506 18.5624 86.9857 19.4286C86.1209 20.2948 85.6351 21.4686 85.6351 22.6923C85.6351 23.9152 86.1212 25.088 86.9863 25.9527C87.8515 26.8174 89.0249 27.3032 90.2484 27.3032H115.526C116.696 27.3032 117.819 27.7679 118.646 28.5951C119.474 29.4222 119.939 30.5441 119.939 31.714V33.1429C119.939 33.4265 119.883 33.7072 119.774 33.9691C119.665 34.2309 119.506 34.4687 119.305 34.6687C119.104 34.8687 118.865 35.0272 118.603 35.1348C118.34 35.2424 118.059 35.2972 117.775 35.2959H80.1831C78.9587 35.2985 77.7853 35.7864 76.9204 36.6526C76.0556 37.5188 75.5698 38.6925 75.5698 39.9163C75.5698 41.1392 76.0559 42.312 76.921 43.1767C77.7862 44.0414 78.9596 44.5272 80.1831 44.5272H136.924C138.148 44.5272 139.321 44.0414 140.186 43.1767C141.051 42.312 141.537 41.1392 141.537 39.9163C141.537 38.6925 141.052 37.5188 140.187 36.6526C139.322 35.7864 138.149 35.2985 136.924 35.2959L131.815 35.3055Z" fill="#2462F7"/>
+        <path d="M59.5951 4.85859V6.2971C59.5963 6.58064 59.5415 6.86162 59.4338 7.12393C59.3261 7.38625 59.1677 7.62473 58.9675 7.82566C58.7674 8.0266 58.5295 8.18604 58.2675 8.29484C58.0055 8.40363 57.7246 8.45962 57.4409 8.45962H48.5957C47.3722 8.45962 46.1988 8.94541 45.3336 9.81011C44.4685 10.6748 43.9824 11.8476 43.9824 13.0705C43.9824 14.2942 44.4682 15.468 45.333 16.3342C46.1979 17.2004 47.3713 17.6883 48.5957 17.6909H54.7626C56.0493 17.6909 57.2833 18.2017 58.1931 19.1111C59.103 20.0205 59.6141 21.2538 59.6141 22.5399C59.6154 23.1775 59.4908 23.809 59.2475 24.3984C59.0043 24.9878 58.6471 25.5235 58.1965 25.9748C57.7459 26.4261 57.2106 26.7841 56.6214 27.0284C56.0321 27.2727 55.4005 27.3984 54.7626 27.3984H48.5957C47.3722 27.3984 46.1988 27.8842 45.3336 28.7489C44.4685 29.6136 43.9824 30.7864 43.9824 32.0093C43.9824 33.233 44.4682 34.4068 45.333 35.273C46.1979 36.1392 47.3713 36.6271 48.5957 36.6296H57.46C58.0313 36.6296 58.5792 36.8565 58.9832 37.2602C59.3872 37.664 59.6141 38.2116 59.6141 38.7827V49.4238C59.6166 50.7116 60.1296 51.9459 61.0407 52.8565C61.9517 53.7671 63.1867 54.2798 64.4752 54.2823C65.7644 54.2823 67.0008 53.7705 67.9125 52.8593C68.8241 51.9482 69.3363 50.7124 69.3363 49.4238V4.85859C69.3363 3.57002 68.8241 2.33424 67.9125 1.42309C67.0008 0.511936 65.7644 3.73575e-05 64.4752 3.73575e-05C63.8352 -0.00247103 63.2011 0.121365 62.6091 0.364406C62.0171 0.607447 61.479 0.964908 61.0256 1.41632C60.5722 1.86772 60.2124 2.4042 59.9669 2.99491C59.7214 3.58562 59.595 4.21895 59.5951 4.85859Z" fill="#2462F7"/>
+        <path d="M50.054 45.5941L34.1269 32.2569C33.0737 31.3661 32.2265 30.2574 31.6439 29.0073C31.0614 27.7573 30.7573 26.3957 30.7527 25.0168V7.92611C30.7527 6.63755 30.2405 5.40177 29.3289 4.49062C28.4173 3.57946 27.1808 3.06757 25.8916 3.06757C25.2537 3.06756 24.622 3.19332 24.0328 3.4376C23.4436 3.68189 22.9083 4.03989 22.4577 4.49117C22.007 4.94245 21.6499 5.47814 21.4066 6.06755C21.1634 6.65696 21.0388 7.28853 21.0401 7.92611V24.9977C21.0388 26.3782 20.7352 27.7417 20.1507 28.9924C19.5661 30.2432 18.7148 31.3509 17.6564 32.2379L1.73874 45.575C1.24925 45.9843 0.845357 46.486 0.55018 47.0515C0.255003 47.617 0.0743501 48.2352 0.0185697 48.8706C-0.0372107 49.5059 0.0329724 50.1461 0.225108 50.7543C0.417244 51.3626 0.727557 51.9269 1.13826 52.4151C1.96665 53.401 3.15266 54.018 4.43583 54.1305C5.71899 54.243 6.99438 53.8419 7.98189 53.0153L22.8511 40.5355C23.706 39.8276 24.7814 39.4401 25.8916 39.4401C27.0018 39.4401 28.0772 39.8276 28.9322 40.5355L43.8299 53.0344C44.8174 53.861 46.0928 54.2621 47.376 54.1495C48.6591 54.037 49.8452 53.42 50.6735 52.4342C51.0832 51.9448 51.3921 51.3794 51.5827 50.7705C51.7733 50.1616 51.8418 49.521 51.7842 48.8856C51.7267 48.2502 51.5442 47.6323 51.2473 47.0675C50.9504 46.5027 50.5449 46.002 50.054 45.5941Z" fill="#2462F7"/>
+      </g>
+      <defs>
+        <clipPath id="wm_clip"><rect width="160" height="99" fill="white"/></clipPath>
+      </defs>
+    </svg>
+    <div class="header-logo-divider"></div>
+    <span class="header-logo-label">택시 서비스 가이드</span>
+  </div>
+</div>
+
+<header class="header">
+  <div class="header-inner">
+    <div class="header-eyebrow">지자체 의사결정 가이드</div>
+    <h1>지자체 담당자를 위한<br>셔클 택시 서비스 가이드</h1>
+    <p class="header-sub">우려사항별로 셔클이 제공하는 선택지를 확인하세요</p>
+  </div>
+</header>
+
+<div class="tab-nav-wrap">
+  <div class="tab-nav">
+    <button class="tab-btn active"  onclick="showTab(0)">① 서비스 설계</button>
+    <button class="tab-btn"         onclick="showTab(1)">② 기사 모집</button>
+    <button class="tab-btn"         onclick="showTab(2)">③ 이용자 가입/이관</button>
+    <button class="tab-btn"         onclick="showTab(3)">④ 홍보</button>
+    <button class="tab-btn"         onclick="showTab(4)">⑤ 서비스 운영</button>
+    <button class="tab-btn"         onclick="showTab(5)">⑥ 정산</button>
+    <button class="tab-btn"         onclick="showTab(6)">⑦ 예산 집행 관리</button>
+    <button class="tab-btn"         onclick="showTab(7)">⑧ 사업 성과 보고</button>
+  </div>
+</div>
+
+<div class="content">
+
+  <!-- ① 서비스 설계 -->
+  <section class="section active" id="section-0">
+    <div class="section-eyebrow">01 · 서비스 설계</div>
+    <h2 class="pain-quote">"어떤 모델로 운영해야 할지,<br>혜택 구조를 어떻게 잡아야 할지 모르겠어요"</h2>
+    <p class="pain-context">사업 목적·예산 규모·이용자 특성에 따라 최적 구조가 달라집니다. 서비스 유형, 혜택 방식, 한도 설정의 세 단계로 지역에 맞는 구조를 설계할 수 있습니다.</p>
+
+    <div class="divider-label">Step 1 — 서비스 유형 선택</div>
+    <div class="cards">
+      <div class="card">
+        <div class="card-label">유형 A</div>
+        <div class="card-title">복지형 바우처택시</div>
+        <div class="card-subtitle">이동약자의 이동권을 보장하는 복지 서비스</div>
+        <div class="card-section">이런 경우 적합</div>
+        <ul>
+          <li>특별교통수단 대체·보완이 필요한 경우</li>
+          <li>장애인·고령자 등 이동약자 대상 복지 사업</li>
+          <li>이동약자지원센터가 운영 주체인 경우</li>
+        </ul>
+        <span class="case-chip">사례: 경기도 의왕시</span>
+      </div>
+      <div class="card">
+        <div class="card-label">유형 B</div>
+        <div class="card-title">공공형 택시</div>
+        <div class="card-subtitle">대중교통 취약지역 주민의 이동을 보장하는 서비스</div>
+        <div class="card-section">이런 경우 적합</div>
+        <ul>
+          <li>농촌·오지 등 버스 노선이 없는 지역</li>
+          <li>마을 단위 이동 지원이 필요한 경우</li>
+          <li>가구 단위 바우처 관리가 필요한 경우</li>
+        </ul>
+        <span class="case-chip">사례: 전남 영암군 100원택시</span>
+      </div>
+      <div class="card">
+        <div class="card-label">유형 C</div>
+        <div class="card-title">관광형 택시</div>
+        <div class="card-subtitle">외지 관광객의 이동 편의를 높여 지역 관광을 활성화하는 서비스</div>
+        <div class="card-section">이런 경우 적합</div>
+        <ul>
+          <li>관광 인프라는 있지만 이동 수단이 부족한 경우</li>
+          <li>관광재단·문화재단이 운영 주체인 경우</li>
+          <li>관광 시즌 집중 운영이 필요한 경우</li>
+        </ul>
+        <span class="case-chip">사례: 경북 영덕군 관광 바우처택시</span>
+      </div>
+    </div>
+
+    <hr class="divider">
+    <div class="divider-label">Step 2 — 혜택 방식 선택</div>
+    <div class="cards">
+      <div class="card">
+        <div class="card-label">혜택 방식 A</div>
+        <div class="card-title">정액 할인 (n원)</div>
+        <div class="card-subtitle">호출 1건당 고정 금액 차감</div>
+        <div class="card-section">이런 경우 적합</div>
+        <ul>
+          <li>이용자 부담금을 예측 가능하게 유지하고 싶은 경우</li>
+          <li>지원금 규모를 건당 고정하고 싶은 경우</li>
+        </ul>
+        <div class="card-section">실제 적용 예시</div>
+        <ul>
+          <li>의왕시: 1회 15,000원 지원, 1일 2회 한도</li>
+          <li>영덕군: 1회 10,000원 지원, 일 1회·연 3회 한도</li>
+        </ul>
+      </div>
+      <div class="card">
+        <div class="card-label">혜택 방식 B</div>
+        <div class="card-title">정률 할인 (n%)</div>
+        <div class="card-subtitle">미터기 요금의 일정 비율 차감</div>
+        <div class="card-section">이런 경우 적합</div>
+        <ul>
+          <li>이동 거리 편차가 크고 부담 비율을 일정하게 유지하려는 경우</li>
+          <li>회당 최대 할인 금액 상한선과 함께 설정 가능</li>
+        </ul>
+      </div>
+      <div class="card">
+        <div class="card-label">혜택 방식 C</div>
+        <div class="card-title">정액 요금</div>
+        <div class="card-subtitle">이용자 부담금 고정 (예: 100원)</div>
+        <div class="card-section">이런 경우 적합</div>
+        <ul>
+          <li>이용자 부담을 최소화하되 완전 무료는 아닌 경우</li>
+          <li>정해진 구간만 운행하는 공공형 서비스</li>
+        </ul>
+        <span class="case-chip">사례: 영암군 100원택시</span>
+      </div>
+      <div class="card">
+        <div class="card-label">혜택 방식 D</div>
+        <div class="card-title">전액 지원</div>
+        <div class="card-subtitle">이용자 부담금 0원</div>
+        <div class="card-section">이런 경우 적합</div>
+        <ul>
+          <li>이용 장벽을 완전히 없애야 하는 복지 목적</li>
+          <li>이용자가 결제 부담을 느껴선 안 되는 경우</li>
+        </ul>
+      </div>
+    </div>
+
+    <hr class="divider">
+    <div class="divider-label">Step 3 — 한도 설정</div>
+    <div class="cards">
+      <div class="card">
+        <div class="card-label">한도 유형 A</div>
+        <div class="card-title">횟수 한도</div>
+        <ul>
+          <li>1일 최대 이용 횟수</li>
+          <li>월 최대 이용 횟수</li>
+          <li>사업 기간 내 누적 최대 횟수</li>
+        </ul>
+      </div>
+      <div class="card">
+        <div class="card-label">한도 유형 B</div>
+        <div class="card-title">금액 한도</div>
+        <ul>
+          <li>회당 최대 지원 금액</li>
+          <li>월 누적 최대 지원 금액</li>
+          <li>사업 기간 내 누적 최대 금액</li>
+        </ul>
+      </div>
+      <div class="card">
+        <div class="card-label">한도 유형 C</div>
+        <div class="card-title">기간 한도</div>
+        <ul>
+          <li>발급일로부터 n일 유효</li>
+          <li>사업 기간 종료 시 자동 만료</li>
+          <li>특정 날짜 지정 종료</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- ② 기사 모집 -->
+  <section class="section" id="section-1">
+    <div class="section-eyebrow">02 · 기사 모집</div>
+    <h2 class="pain-quote">"기사님들이 참여할<br>이유를 어떻게 만들죠?"</h2>
+    <p class="pain-context">셔클 택시는 자율수락형으로 운영됩니다. 기사님이 실제로 느끼는 불편에서 출발해, 셔클이 어떻게 답할 수 있는지 4가지로 정리했습니다.</p>
+
+    <!-- 배차 방식 개요 -->
+    <div class="info-box">
+      <div class="info-box-title">셔클 기본 배차 방식</div>
+      <div class="info-flow">
+        <div class="flow-step">조회 기간 내 이용자와<br><strong>가장 근거리에 있는 택시</strong>에게 콜카드 전송</div>
+        <div class="flow-arrow">→</div>
+        <div class="flow-step"><strong>가장 빠르게 수락</strong>한<br>기사에게 배차 완료</div>
+        <div class="flow-arrow">→</div>
+        <div class="flow-step">수락 기사 없을 경우<br>이용자가 <strong>여러 번 배차 재시도</strong> 가능</div>
+      </div>
+    </div>
+
+    <div class="cards">
+
+      <!-- 카드 A: 정산 -->
+      <div class="card">
+        <div class="driver-pain-label">기사님의 우려</div>
+        <div class="driver-pain-quote">"정산 요청이 너무 복잡하고, 돈이 들어오기까지 너무 오래 걸려요"</div>
+        <div class="card-label">설득 포인트 A</div>
+        <div class="card-title">정산사 연계로 선정산·간소화</div>
+        <ul>
+          <li>이즐(정산사)과 연동 — 기사는 운행 완료 후 <strong>선정산</strong> 수령</li>
+          <li>지자체는 월 1회 입금만 처리 — 복잡한 건별 정산 불필요</li>
+          <li>운행 건별 정산 데이터 자동 생성·기록 — 오류 발생 시 즉시 조회 가능</li>
+        </ul>
+      </div>
+
+      <!-- 카드 B: 배차 공정성 -->
+      <div class="card">
+        <div class="driver-pain-label">기사님의 우려</div>
+        <div class="driver-pain-quote">"특정 기사에게만 콜이 몰리는 것 같아요. 배차가 공정한지 모르겠어요"</div>
+        <div class="card-label">설득 포인트 B</div>
+        <div class="card-title">투명한 근거리 배차</div>
+        <ul>
+          <li>이용자와 가장 가까운 택시 순으로 콜카드 전송 — 알고리즘 기반</li>
+          <li>가장 빠르게 수락한 기사에게 배차 — 누구에게나 동일한 기준 적용</li>
+          <li>기사별 수락률·콜 이력을 운영툴에서 확인 가능 → 투명성 확보</li>
+        </ul>
+      </div>
+
+      <!-- 카드 C: 기존 영업 병행 + 선순환 -->
+      <div class="card">
+        <div class="driver-pain-label">기사님의 우려</div>
+        <div class="driver-pain-quote">"셔클에만 전념해야 하나요? 기존 영업을 포기해야 하는 건 아닌가요?"</div>
+        <div class="card-label">설득 포인트 C</div>
+        <div class="card-title">기존 영업 유지 + 추가 매출</div>
+        <ul>
+          <li>타 콜택시 앱과 동시 사용 가능 — 전업 전환 불필요</li>
+          <li>플로팅 버튼으로 타 앱 이용 중에도 셔클 콜 즉시 확인·수락</li>
+          <li>배차 효율·사용성 개선 → 이용자 수요 증가 → 기사 매출 증대 → 예산 확대·정책 강화 → 기사 이익 증가 선순환</li>
+        </ul>
+      </div>
+
+      <!-- 카드 D: 앱·심사 부담 -->
+      <div class="card">
+        <div class="driver-pain-label">기사님의 우려</div>
+        <div class="driver-pain-quote">"새로운 앱을 배워야 하고, 입사 절차도 복잡할 것 같아요"</div>
+        <div class="card-label">설득 포인트 D</div>
+        <div class="card-title">익숙한 방식, 앱 원스톱 심사</div>
+        <ul>
+          <li>카카오T 등 기존 플랫폼과 동일한 콜 수락 구조 — 새로 배울 것이 거의 없음</li>
+          <li>콜카드에 출발지·도착지·예상거리 한눈에 표시 → 수락 / 거절 한 번으로 처리</li>
+          <li><strong>기사</strong>: 앱에서 심사 지원 → <strong>운영담당자</strong>: 관제툴에서 승인 → 즉시 앱 활성화</li>
+        </ul>
+        <div class="tbd-inline">TBD — 셔클 기사 앱 실사용률 수치 (운영 데이터 확인 후 기재)</div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ③ 이용자 가입/이관 -->
+  <section class="section" id="section-2">
+    <div class="section-eyebrow">03 · 이용자 가입/이관</div>
+    <h2 class="pain-quote">"디지털에 익숙하지 않은 분들을<br>어떻게 가입시키죠?"</h2>
+    <p class="pain-context">이용자가 직접 가입하는 것이 어려운 상황에서도 서비스를 시작할 수 있습니다. <strong>누가 등록을 진행하느냐</strong>에 따라 적합한 방식이 달라집니다.</p>
+
+    <div class="track-nav">
+      <button class="track-btn active" onclick="filterTrack('all', this)">전체 보기</button>
+      <button class="track-btn" onclick="filterTrack('self', this)">이용자 본인</button>
+      <button class="track-btn" onclick="filterTrack('assist', this)">현장 도움</button>
+      <button class="track-btn" onclick="filterTrack('proxy', this)">담당자 대행</button>
+    </div>
+
+    <div class="cards">
+
+      <!-- 방식 A: 앱 직접가입 -->
+      <div class="card reg-card" data-track="self">
+        <div class="track-chip chip-self">이용자 본인</div>
+        <div class="card-label">방식 A</div>
+        <div class="card-title">앱 직접가입</div>
+        <div class="card-subtitle">셔클 앱에서 이용자 본인이 직접 가입</div>
+        <div class="card-section">지원 환경</div>
+        <ul>
+          <li>Android / iOS 모두 지원</li>
+        </ul>
+        <div class="card-section">가입 프로세스</div>
+        <ul>
+          <li>카카오톡 · 네이버 소셜 계정으로 연동 가입</li>
+          <li>PASS 통신사 본인인증 (CI 획득)</li>
+          <li>결제수단 등록</li>
+        </ul>
+        <div class="card-section">이런 경우 적합</div>
+        <ul>
+          <li>스마트폰 사용에 익숙한 이용자</li>
+          <li>관광형 등 앱 직접 호출이 기본인 서비스</li>
+        </ul>
+      </div>
+
+      <!-- 방식 B: 간편가입 -->
+      <div class="card reg-card" data-track="self assist">
+        <div class="track-chip chip-assist">본인 직접 · 현장 도움</div>
+        <div class="card-label">방식 B</div>
+        <div class="card-title">간편가입</div>
+        <div class="card-subtitle">앱 설치 없이 웹 링크로 가입 — SMS 일괄 발송 또는 현장 태블릿 활용</div>
+        <div class="card-section">두 가지 운영 방식</div>
+        <ul>
+          <li><strong>문자 발송</strong>: 대상자에게 가입 링크를 SMS·알림톡으로 일괄 발송 → 본인이 직접 진행</li>
+          <li><strong>현장 태블릿</strong>: 행정복지센터·안내소 등에 기기를 비치하고 담당자 도움으로 진행</li>
+        </ul>
+        <div class="card-section">가입 프로세스</div>
+        <ul>
+          <li>약관 동의 → PASS 본인인증 → 결제수단 등록</li>
+          <li>인증 완료 시 웹 간편인증 회원으로 등록</li>
+        </ul>
+        <div class="card-section">이런 경우 적합</div>
+        <ul>
+          <li>앱 설치가 어려운 고령자·장애인</li>
+          <li>사업 초기 대상자에게 일괄 안내가 필요한 경우</li>
+        </ul>
+      </div>
+
+      <!-- 방식 C: 운영주체 대행가입 -->
+      <div class="card reg-card" data-track="proxy">
+        <div class="track-chip chip-proxy">담당자 대행</div>
+        <div class="card-label">방식 C</div>
+        <div class="card-title">운영주체 대행가입</div>
+        <div class="card-subtitle">이용자격 심사 기관(예: 교통약자이동지원센터)이 서류 기반으로 담당자가 대신 등록</div>
+        <div class="card-section">등록 방식</div>
+        <ul>
+          <li>담당자가 운영툴에서 원격 회원(RM) 직접 등록</li>
+          <li>이용자 본인 인증(CI) 없이 처리 가능</li>
+          <li>연락처(전화번호 또는 유선)만 필요</li>
+        </ul>
+        <div class="card-section">이런 경우 적합</div>
+        <ul>
+          <li>교통약자이동지원센터 등 이용자격 심사 기관이 존재하는 경우</li>
+          <li>서류 심사를 이미 완료한 대상자 등록 시</li>
+          <li>스마트폰 미보유 고령자·취약계층</li>
+        </ul>
+      </div>
+
+      <!-- 방식 D: 일괄 등록 -->
+      <div class="card reg-card" data-track="proxy">
+        <div class="track-chip chip-proxy">담당자 대행</div>
+        <div class="card-label">방식 D</div>
+        <div class="card-title">일괄 등록</div>
+        <div class="card-subtitle">사업 초기 대상자 명단 기반으로 계정·바우처를 일괄 생성</div>
+        <div class="card-section">전제 조건</div>
+        <ul>
+          <li>이용 약관 및 개인정보 방침에 대한 <strong>사전 서면 동의 완료</strong>가 필수</li>
+        </ul>
+        <div class="card-section">이런 경우 적합</div>
+        <ul>
+          <li>사업 개시 시점에 대상자 명단이 이미 확보된 경우</li>
+          <li>대상자가 많아 개별 등록이 비효율적인 경우</li>
+          <li>사업 초기 빠른 온보딩이 필요한 경우</li>
+        </ul>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ④ 홍보 -->
+  <section class="section" id="section-3">
+    <div class="section-eyebrow">04 · 홍보</div>
+    <h2 class="pain-quote">"바뀐 운영 방식을<br>이용자·기사님께 어떻게 알리죠?"</h2>
+    <p class="pain-context">새로운 플랫폼 도입 시 홍보 자료 제작이 부담이 됩니다. 셔클은 오프라인 홍보물 디자인을 지원합니다.</p>
+
+    <div class="cards">
+      <div class="card">
+        <div class="card-label">지원 항목 A</div>
+        <div class="card-title">포스터 · 엑스배너</div>
+        <div class="card-subtitle">행정복지센터·관광안내소·역사 등 현장 거점에 비치할 홍보물</div>
+        <div class="card-section">셔클 제공</div>
+        <ul>
+          <li>피그마 템플릿 기반 디자인 지원</li>
+          <li>지역 로고·서비스명 반영 맞춤 제작</li>
+          <li>AI 활용 디자인 제작 가능</li>
+        </ul>
+      </div>
+      <div class="card">
+        <div class="card-label">지원 항목 B</div>
+        <div class="card-title">차량 데칼</div>
+        <div class="card-subtitle">셔클 바우처택시 차량임을 식별할 수 있도록 차량 외부에 부착하는 데칼 디자인</div>
+        <div class="card-section">셔클 제공</div>
+        <ul>
+          <li>차종별 데칼 디자인 템플릿 보유</li>
+          <li>지역·서비스 정보 반영 커스텀 제작</li>
+          <li>데칼 제작 업체 연계 지원</li>
+        </ul>
+      </div>
+      <div class="tbd-card">
+        <div class="tbd-badge">확인 중</div>
+        <div class="card-title">디지털 채널 홍보물</div>
+        <p>SNS 게시물, 앱 내 공지, 문자 발송 등 디지털 채널 지원 방안은 디자인팀 협의 중입니다. 필요하신 경우 담당자에게 별도 문의 부탁드립니다.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ⑤ 서비스 운영 -->
+  <section class="section" id="section-4">
+    <div class="section-eyebrow">05 · 서비스 운영</div>
+    <h2 class="pain-quote">"매일 처리해야 할 일이 너무 많고<br>기사가 콜을 안 받아요"</h2>
+    <p class="pain-context">오픈 이후 이용자 등록, 바우처 관리, CS, 수락률 관리가 매일 쌓입니다. 셔클 운영툴은 이 업무들을 한 곳에서 처리할 수 있도록 지원합니다.</p>
+
+    <div class="cards">
+      <div class="card">
+        <div class="card-label">운영 기능 A</div>
+        <div class="card-title">이용자 · 바우처 관리</div>
+        <ul>
+          <li>이용자 검색·조회·상태 확인</li>
+          <li>바우처 발급·수정·비활성화 및 이력 관리</li>
+          <li>인증 심사(서류 검토·승인·반려)</li>
+        </ul>
+        <div class="card-section">바우처 유형</div>
+        <ul>
+          <li><strong>개인바우처</strong>: 이용자 1인에게 발급 — 본인만 사용 가능</li>
+          <li><strong>그룹바우처</strong>: 가구 단위 발급 — 가구 내 누구나 공동 사용 가능<br><span style="font-size:12px;color:var(--text-muted)">공공형 서비스에서 가구 단위 혜택을 지급하는 경우 활용</span></li>
+        </ul>
+      </div>
+      <div class="card">
+        <div class="card-label">운영 기능 B</div>
+        <div class="card-title">기사 수락률 모니터링</div>
+        <ul>
+          <li>기사별 콜 수락·거절 이력 조회</li>
+          <li>수락률 낮은 기사 파악 가능</li>
+          <li>기사 운행 현황 실시간 확인</li>
+        </ul>
+      </div>
+      <div class="card">
+        <div class="card-label">운영 기능 C</div>
+        <div class="card-title">이용자 커뮤니케이션</div>
+        <div class="card-subtitle">앱 내 팝업과 문자(SMS·알림톡)로 이용자에게 일괄 안내할 수 있습니다.</div>
+        <ul>
+          <li><strong>앱 팝업</strong>: 서비스 개시·변경사항·혜택 안내를 앱 진입 시 노출</li>
+          <li><strong>문자 발송</strong>: 대상 이용자를 선택해 SMS·알림톡 일괄 발송</li>
+          <li>담당자가 직접 내용을 작성해 즉시 발송 가능</li>
+        </ul>
+      </div>
+      <div class="card">
+        <div class="card-label">운영 기능 D</div>
+        <div class="card-title">CS 역할 분리</div>
+        <ul>
+          <li>이용자 CS: 앱·전화·바우처 관련 → 고객센터</li>
+          <li>기사 CS: 운행·정산 관련 → 담당 채널 분리</li>
+          <li>처리 주체를 사전 정의해 현장 혼선 방지</li>
+        </ul>
+      </div>
+      <div class="card">
+        <div class="card-label">운영 기능 E</div>
+        <div class="card-title">권한 분리</div>
+        <ul>
+          <li>지자체·운영사·운수사별 접근 권한 차등 설정</li>
+          <li>각 주체가 본인 업무 범위만 처리</li>
+          <li>행정복지센터 담당자용 별도 권한 설정 가능</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- ⑥ 정산 -->
+  <section class="section" id="section-5">
+    <div class="section-eyebrow">06 · 정산</div>
+    <h2 class="pain-quote">"운행 내역 대조하고 지급 처리하는 데<br>너무 오래 걸려요"</h2>
+    <p class="pain-context">가장 큰 변화는 <strong>지자체가 기사님께 직접 입금하던 방식</strong>에서 <strong>정산사가 중간에서 처리하는 방식</strong>으로 전환된다는 점입니다. 지자체의 정산 업무가 월 1회 입금으로 단순화됩니다.</p>
+
+    <div class="payment-compare">
+      <div class="pay-box before">
+        <div class="ba-label">기존 방식</div>
+        <div class="pay-node gov">지자체</div>
+        <div class="pay-lines">
+          <div class="pay-line">기사 A (운수사 1) 입금</div>
+          <div class="pay-line">기사 B (운수사 1) 입금</div>
+          <div class="pay-line">기사 C (운수사 2) 입금</div>
+          <div class="pay-line" style="color:#be123c;opacity:0.6">... (기사 수만큼 반복)</div>
+        </div>
+        <div style="font-size:12.5px;color:#be123c;margin-bottom:8px">
+          ✕ 운수사·기사 수만큼 개별 입금<br>
+          ✕ 운행 내역 엑셀 수작업 대조<br>
+          ✕ 오류 발생 시 재검토로 수일 추가 지연
+        </div>
+        <div class="pay-summary">매월 N번 개별 송금</div>
+      </div>
+
+      <div class="ba-arrow">→</div>
+
+      <div class="pay-box after">
+        <div class="ba-label">셔클 도입 후</div>
+        <div class="pay-flow-row">
+          <div class="pay-node gov">지자체</div>
+          <div class="pay-single-arrow">── 월 1회 입금 ──→</div>
+          <div class="pay-node settle">정산사<br>(이즐)</div>
+        </div>
+        <div class="pay-down-block">
+          <div style="font-size:12px;color:var(--text-muted);margin-bottom:4px">선정산 자동 지급 ↓</div>
+          <div class="pay-node driver">기사 A · 기사 B · 기사 C · ...</div>
+        </div>
+        <div style="font-size:12.5px;color:#15803d;margin-top:14px;margin-bottom:8px">
+          ✓ 지자체는 정산사에 1번만 입금<br>
+          ✓ 정산사가 각 기사에게 선정산 후 세금계산서 발행<br>
+          ✓ 운행 데이터 자동 기록 — 이의 시 즉시 조회
+        </div>
+        <div class="pay-summary">매월 1번 입금으로 완료</div>
+      </div>
+    </div>
+
+    <div class="divider-label">호출 단위로 자동 기록되는 정산 데이터</div>
+    <div class="cards">
+      <div class="card">
+        <div class="card-label">기록 항목</div>
+        <div class="card-title">운행 내역</div>
+        <ul>
+          <li>출발지 · 도착지</li>
+          <li>미터기 요금</li>
+          <li>바우처 적용 지원금</li>
+          <li>이용자 결제금 (기본요금 · 초과요금)</li>
+          <li>결제 방식 (앱 · 현장)</li>
+        </ul>
+      </div>
+      <div class="card">
+        <div class="card-label">집계 구조</div>
+        <div class="card-title">항목별 분리 집계</div>
+        <ul>
+          <li>바우처 지원금 (지자체 예산분)</li>
+          <li>이용자 결제금</li>
+          <li>플랫폼 수수료</li>
+          <li>운수사별 정산 금액</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- ⑦ 예산 집행 관리 -->
+  <section class="section" id="section-6">
+    <div class="section-eyebrow">07 · 예산 집행 관리</div>
+    <h2 class="pain-quote">"예산을 제대로 쓴 건지 증빙하기 어렵고<br>언제 소진될지 예측도 안 돼요"</h2>
+    <p class="pain-context">예산 관리는 두 가지 관점에서 다뤄집니다. <strong>증빙</strong>: 올바르게 집행됐음을 사후 입증. <strong>예측</strong>: 소진 속도를 파악해 혜택 운영을 선제적으로 조정.</p>
+
+    <div class="divider-label">관점 1 — 예산 증빙</div>
+    <p style="font-size:14px;color:var(--text-muted);margin-bottom:24px;line-height:1.7">감사·의회 보고 시 "적격 대상자에게 올바르게 집행됐는가"를 증명해야 합니다. 셔클은 전 과정이 시스템에 자동 기록됩니다.</p>
+
+    <div class="cards">
+      <div class="card">
+        <div class="card-label">기록 A</div>
+        <div class="card-title">대상자 인증 이력</div>
+        <ul>
+          <li>인증 처리자 · 처리 일시</li>
+          <li>승인 · 반려 · 만료 결과</li>
+          <li>근거 서류 첨부 내역</li>
+          <li>인증 유형 및 유효기간</li>
+        </ul>
+      </div>
+      <div class="card">
+        <div class="card-label">기록 B</div>
+        <div class="card-title">바우처 발급 이력</div>
+        <ul>
+          <li>발급자 · 발급 일시</li>
+          <li>바우처 현재 상태 (유효·만료·비활성)</li>
+          <li>수정·변경 이력</li>
+        </ul>
+      </div>
+      <div class="card">
+        <div class="card-label">기록 C</div>
+        <div class="card-title">호출 · 결제 연결</div>
+        <ul>
+          <li>이용자 → 운행 → 결제 → 지원금 흐름 연결</li>
+          <li>건별 바우처 차감 내역</li>
+          <li>미수금 발생·해제 이력</li>
+        </ul>
+      </div>
+      <div class="card">
+        <div class="card-label">기록 D</div>
+        <div class="card-title">집계 데이터 내보내기</div>
+        <ul>
+          <li>기간별·이용자별·마을별 집계 조회</li>
+          <li>감사 대응용 데이터 내보내기</li>
+          <li>운영툴에서 바로 확인 및 추출 가능</li>
+        </ul>
+      </div>
+    </div>
+
+    <hr class="divider">
+    <div class="divider-label">관점 2 — 예산 예측</div>
+    <p style="font-size:14px;color:var(--text-muted);margin-bottom:24px;line-height:1.7">예산이 얼마나 빠르게 소진되는지 일 단위로 확인하고, 혜택 구조를 유연하게 조정할 수 있습니다.</p>
+
+    <div class="cards">
+      <div class="card">
+        <div class="card-label">예측 기능</div>
+        <div class="card-title">일 단위 예산 소진 현황</div>
+        <ul>
+          <li>날짜별 바우처 사용 금액 및 건수 추이 확인</li>
+          <li>현재 소진 속도 기준 잔여 예산 파악 가능</li>
+          <li>이상 급증·급감 구간 조기 발견</li>
+        </ul>
+        <div class="card-section">현황에 따라 유연하게 조정 가능</div>
+        <ul>
+          <li>소진이 빠르면 → 혜택 금액·이용 횟수 한도 축소</li>
+          <li>소진이 느리면 → 혜택 확대 또는 대상자 범위 넓히기</li>
+          <li>지자체 예산 집행률 목표에 맞춰 실시간 대응 가능</li>
+        </ul>
+      </div>
+      <div class="tbd-card">
+        <div class="tbd-badge">추후 제공 예정</div>
+        <div class="card-title">예산 Calculator</div>
+        <p>예산 규모와 운영 조건(혜택 금액·한도·이용자 수 등)을 입력하면, 실제 운영 데이터를 기반으로 최적의 혜택 구조와 예상 소요 예산을 제안합니다.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ⑧ 사업 성과 보고 -->
+  <section class="section" id="section-7">
+    <div class="section-eyebrow">08 · 사업 성과 보고</div>
+    <h2 class="pain-quote">"예산은 쓰고 있는데<br>이 사업이 정말 효과 있는 건지 모르겠어요"</h2>
+    <p class="pain-context">사업 연장·확대·의회 보고를 위해 이용률과 효과를 데이터로 제시해야 합니다. 셔클 인사이트(insight.shucle.com)에서 운행 데이터를 실시간으로 확인할 수 있습니다.</p>
+
+    <div class="divider-label">확인 가능한 지표</div>
+
+    <div class="metric-group">
+      <div class="metric-group-title">호출 · 이용</div>
+      <div class="metric-chips">
+        <span class="metric-chip">호출 건수</span>
+        <span class="metric-chip">배차 성공 건수</span>
+        <span class="metric-chip">이동완료 건수</span>
+        <span class="metric-chip">일별 호출 추이</span>
+        <span class="metric-chip">호출 결과별 분포 (완료·취소·포기·실패)</span>
+        <span class="metric-chip">호출 방식별 비율 (앱·전화)</span>
+        <span class="metric-chip">시간대별 호출 분포</span>
+        <span class="metric-chip">행정구역별 호출 분포</span>
+      </div>
+    </div>
+
+    <div class="metric-group">
+      <div class="metric-group-title">이용 회원</div>
+      <div class="metric-chips">
+        <span class="metric-chip">누적 호출 회원 수</span>
+        <span class="metric-chip">누적 탑승 회원 수</span>
+        <span class="metric-chip">일별 이용 순 회원 추이</span>
+        <span class="metric-chip">이용 회원 연령대 분포</span>
+        <span class="metric-chip">이용 회원 성별 비율</span>
+        <span class="metric-chip">행정구역별 회원 수</span>
+      </div>
+    </div>
+
+    <div class="metric-group">
+      <div class="metric-group-title">결제 · 매출</div>
+      <div class="metric-chips">
+        <span class="metric-chip">기간 내 매출 합계</span>
+        <span class="metric-chip">항목별 매출 (이용요금·지원금 등)</span>
+        <span class="metric-chip">개인택시 vs 법인택시 매출</span>
+        <span class="metric-chip">일별 매출 추이</span>
+      </div>
+    </div>
+
+    <hr class="divider">
+    <div class="divider-label">확인 방법</div>
+    <div class="cards">
+      <div class="card">
+        <div class="card-label">방법 A</div>
+        <div class="card-title">인사이트 대시보드</div>
+        <div class="card-subtitle">insight.shucle.com</div>
+        <ul>
+          <li>Superset 기반 차트·그래프 시각화</li>
+          <li>일별 추이, 분포 비율, 지역별 현황</li>
+          <li>기간 필터로 원하는 구간 즉시 조회</li>
+          <li>실시간 데이터 반영</li>
+        </ul>
+      </div>
+      <div class="card">
+        <div class="card-label">방법 B</div>
+        <div class="card-title">운영툴 내 데이터 조회</div>
+        <ul>
+          <li>이용자별·기사별 상세 이력 조회</li>
+          <li>건별 운행 데이터 확인</li>
+          <li>집계 데이터 내보내기 (보고 자료 활용)</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+</div>
+
+<script>
+  function showTab(index) {
+    document.querySelectorAll('.section').forEach((s, i) => {
+      s.classList.toggle('active', i === index);
+    });
+    document.querySelectorAll('.tab-btn').forEach((btn, i) => {
+      btn.classList.toggle('active', i === index);
+    });
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  }
+
+  function filterTrack(track, btn) {
+    document.querySelectorAll('.track-btn').forEach(b => b.classList.remove('active'));
+    btn.classList.add('active');
+    document.querySelectorAll('.reg-card').forEach(card => {
+      if (track === 'all') {
+        card.classList.remove('dimmed');
+      } else {
+        const tracks = card.dataset.track || '';
+        card.classList.toggle('dimmed', !tracks.includes(track));
+      }
+    });
+  }
+</script>
+
+</body>
+</html>
