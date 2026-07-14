@@ -583,7 +583,45 @@
       color: var(--text);
     }
 
+    /* ─── 고객센터 역할 체크리스트 ─── */
+    .cs-roles { display: flex; flex-direction: column; gap: 9px; }
+    .cs-role-item {
+      display: flex;
+      align-items: flex-start;
+      gap: 9px;
+      font-size: 13.5px;
+      line-height: 1.5;
+    }
+    .cs-role-tag {
+      flex-shrink: 0;
+      font-size: 10px;
+      font-weight: 700;
+      border-radius: 4px;
+      padding: 2px 7px;
+      letter-spacing: 0.04em;
+      margin-top: 2px;
+    }
+    .cs-role-tag.base     { background: var(--accent-light); color: var(--accent); }
+    .cs-role-tag.optional { background: #f0fdf4; color: #15803d; }
+
+    /* ─── 고객센터 운영시간 옵션 ─── */
+    .cs-time-options { display: flex; flex-direction: column; gap: 10px; }
+    .cs-time-row {
+      display: grid;
+      grid-template-columns: 64px 1fr auto;
+      align-items: center;
+      gap: 12px;
+      padding: 10px 14px;
+      border-radius: 8px;
+      background: var(--bg);
+      font-size: 13px;
+    }
+    .cs-time-tier { font-weight: 700; color: var(--text); }
+    .cs-time-hours { color: var(--text-muted); }
+    .cs-time-note { font-size: 11px; color: var(--text-muted); white-space: nowrap; }
+
     @media (max-width: 720px) {
+      .cs-time-row { grid-template-columns: 1fr; }
       .header-logo-bar { padding: 0 20px; }
       .header { padding: 32px 20px 28px; }
       .header h1 { font-size: 22px; }
@@ -1076,6 +1114,106 @@
           <li>행정복지센터 담당자용 별도 권한 설정 가능</li>
         </ul>
       </div>
+    </div>
+
+    <hr class="divider">
+    <div class="divider-label">고객센터 설계 — 위임 범위와 운영 조건 결정</div>
+    <p style="font-size:14px;color:var(--text-muted);line-height:1.75;margin-bottom:28px">고객센터(TCK)가 수행 가능한 역할 중 <strong style="color:var(--text)">어디까지 위임할지</strong>에 따라 운영 시간과 비용이 달라집니다. 아래 항목을 기준으로 지자체 상황에 맞게 범위를 결정하세요.</p>
+
+    <div class="cards">
+
+      <!-- 카드 1: 위임 가능한 역할 -->
+      <div class="card">
+        <div class="card-label">역할 범위</div>
+        <div class="card-title">위임 가능한 역할 목록</div>
+        <div class="card-section">이용자 대응</div>
+        <div class="cs-roles">
+          <div class="cs-role-item"><span class="cs-role-tag base">기본</span>앱 사용 방법·서비스 안내</div>
+          <div class="cs-role-item"><span class="cs-role-tag base">기본</span>바우처 사용 방법 및 잔액 안내</div>
+          <div class="cs-role-item"><span class="cs-role-tag base">기본</span>불만·민원 1차 접수 및 처리</div>
+          <div class="cs-role-item"><span class="cs-role-tag optional">선택</span>이용자 원격 호출 대행 (직접 앱 사용이 어려운 경우)</div>
+          <div class="cs-role-item"><span class="cs-role-tag optional">선택</span>이용자 원격 등록(RM) 대행</div>
+        </div>
+        <div class="card-section">기사 대응</div>
+        <div class="cs-roles">
+          <div class="cs-role-item"><span class="cs-role-tag base">기본</span>기사 앱 사용 방법 안내</div>
+          <div class="cs-role-item"><span class="cs-role-tag base">기본</span>콜 수락·운행 절차 안내</div>
+          <div class="cs-role-item"><span class="cs-role-tag optional">선택</span>기사 정산 문의 대응</div>
+          <div class="cs-role-item"><span class="cs-role-tag optional">선택</span>민원 에스컬레이션 처리 (운영팀 연계)</div>
+        </div>
+        <div style="margin-top:16px;font-size:12px;color:var(--text-muted);line-height:1.6">
+          <span style="background:var(--accent-light);color:var(--accent);border-radius:4px;padding:1px 6px;font-weight:700;font-size:10px">기본</span> 기본 계약에 포함 &nbsp;·&nbsp;
+          <span style="background:#f0fdf4;color:#15803d;border-radius:4px;padding:1px 6px;font-weight:700;font-size:10px">선택</span> 위임 범위에 따라 추가 적용
+        </div>
+      </div>
+
+      <!-- 카드 2: 운영 시간 옵션 -->
+      <div class="card">
+        <div class="card-label">운영 시간</div>
+        <div class="card-title">운영 가능 시간 옵션</div>
+        <div class="card-subtitle">서비스 이용 패턴과 이용자 특성에 맞는 시간대를 선택할 수 있습니다.</div>
+        <div class="cs-time-options">
+          <div class="cs-time-row">
+            <span class="cs-time-tier">기본형</span>
+            <span class="cs-time-hours">평일 09:00 – 18:00</span>
+            <span class="cs-time-note">주 5일</span>
+          </div>
+          <div class="cs-time-row">
+            <span class="cs-time-tier">확장형</span>
+            <span class="cs-time-hours">평일 09:00 – 21:00 + 주말 10:00 – 18:00</span>
+            <span class="cs-time-note">주 7일</span>
+          </div>
+          <div class="cs-time-row">
+            <span class="cs-time-tier">풀타임</span>
+            <span class="cs-time-hours">연중무휴 09:00 – 21:00</span>
+            <span class="cs-time-note">365일</span>
+          </div>
+        </div>
+        <div class="card-section">운영 시간 선택 시 고려사항</div>
+        <ul>
+          <li>이용자 평균 호출 시간대 (인사이트 데이터 참고)</li>
+          <li>고령자·장애인 등 디지털 취약계층 비율이 높을수록 운영 시간 확보 권장</li>
+          <li>서비스 오픈 초기에는 확장형 이상 권장</li>
+        </ul>
+      </div>
+
+      <!-- 카드 3: 대응 가능 업무 상세 -->
+      <div class="card">
+        <div class="card-label">업무 상세</div>
+        <div class="card-title">고객센터 대응 가능 업무</div>
+        <div class="card-section">이용자 문의 유형</div>
+        <ul>
+          <li>앱 설치·로그인·회원가입 문의</li>
+          <li>호출 방법, 취소, 배차 지연 안내</li>
+          <li>바우처 잔액·이용 한도·만료 안내</li>
+          <li>결제·환불 관련 1차 응대</li>
+          <li>운행 중 불만·사고 신고 접수</li>
+          <li>전화 호출 대행 (고령자·장애인 대상)</li>
+        </ul>
+        <div class="card-section">기사 문의 유형</div>
+        <ul>
+          <li>기사 앱 설치·로그인 오류 안내</li>
+          <li>콜 수락·운행 완료 처리 방법</li>
+          <li>정산 지연·오류 시 1차 접수 후 담당팀 연계</li>
+        </ul>
+        <div class="card-section">처리 불가 범위 (운영팀 직접 처리)</div>
+        <ul>
+          <li>바우처 직접 발급·수정·비활성화</li>
+          <li>이용자 인증 심사·승인</li>
+          <li>정산 데이터 수정 및 환불 확정</li>
+        </ul>
+      </div>
+
+      <!-- 카드 4: 예상 비용 (TBD) -->
+      <div class="tbd-card">
+        <div class="tbd-badge">추후 제공 예정</div>
+        <div class="card-title">고객센터 운영 예상 비용</div>
+        <p>위임 업무 범위와 운영 시간을 선택하면 월 예상 운영 비용을 자동으로 산출합니다. 서비스 설계 탭의 예산 Calculator와 연동되어, 고객센터 운영비까지 포함한 총 사업 예산을 한 번에 확인할 수 있습니다.</p>
+        <div style="margin-top:16px;background:#fef3c7;border-radius:8px;padding:10px 14px;font-size:12.5px;color:#92400e;line-height:1.6">
+          현재는 셔클 사업팀에 운영 조건을 공유하시면<br>맞춤 견적을 제공해 드립니다.
+        </div>
+      </div>
+
     </div>
   </section>
 
